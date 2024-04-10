@@ -1,0 +1,108 @@
+.caja{display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+.conteiner{
+    background-color: rgb(253, 249, 249);
+    border: 2px solid rgb(240, 237, 237);
+    width: 400px;
+    height: 770px;
+    border-radius: 1px;s
+    box-shadow: 5px 10px 8px #615b5b;
+}
+
+text h2{
+    text-align: center;
+     }
+
+.text h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+.secction{ 
+    padding: 20px;
+}
+.boton{
+    display: flex;
+    width: 100%;
+    height: min-content;
+    border: 5px solid #fffdfd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration:  none;
+    color: inherit;
+}
+.google{
+    width: 65px;
+    height: 50px;
+    padding: 8px;
+}
+.boton p{
+    align-content: baseline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    border: #ded5d5;
+    color: blue;
+}
+a:hover {
+    background-color: rgb(248, 249, 250);
+}
+.lineas {
+    display: flex;
+    align-items: center
+}
+.lineas hr {
+    width: 50%;
+    background-color: rgb(221, 218, 218);
+}
+.lineas > div {
+    padding: 0 10px;
+}
+.contenido {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #9e9898;
+    font-size: 18px;
+}
+.buton {
+    color: aliceblue;
+    background-color: #1ca39e;
+    width: 100%;
+    border-top: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) { 
+    body{
+        background-color: rgb(194, 196, 192);
+        font-size: 28px;
+        color: rgb(19, 17, 17);
+     }
+     h1 {
+        background-color: rgb(15, 17, 16);
+        color: rgb(158, 173, 190);
+ }
+ }
+@media only screen and (max-width: 400px) {
+    body{
+        background-color: rgb(141, 119, 119);
+        font-size: 28px;
+        color: rgb(26, 24, 23);
+    }
+    h1 {
+        background-color: rgb(211, 218, 231);
+        color: rgb(20, 22, 24);
+    }
+}
+
+    
